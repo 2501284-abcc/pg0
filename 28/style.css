@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #f5dbc0;
+    background-color: #dceefb;
 }
 .navigation{
     position: fixed;top:0;
@@ -10,7 +10,7 @@ body{
     padding-right: 20px;
     width: 100%;
     box-sizing: border-box;
-    background-color: #333333;
+    background-color: #1a73e8;
 }
 .navigation ul{
     list-style: none;
@@ -23,28 +23,48 @@ body{
     text-decoration: none;
     margin-right: 20px;
 }
-.img{
+.navigation a:hover{
+    background-color: #155ab6;
+}
+.tate{
     position: fixed;
     top: 70px;
     right: 70px;
     width: 350px;
-    height: 100px;
-    object-fit: cover;
 }
-.img img{
+.yoko{
+    position: fixed;
+    top: 70px;
+    right: 70px;
+    width: 500px;
+}
+img{
     width: 100%;
     border-radius: 10px;
+}
+.yoko img{
+    height: 500px;
+    object-fit: fill;
 }
 .leftspace{
     display: flex;
     justify-content: space-between;
     margin: 50px;
 }
+.leftspace li{
+    margin: 40px;
+    font-size: 25px;
+}
+.leftspace h1{
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
 .text{
     width: 40%;
-    font-size: 20px;
-    margin: 50px;
+    margin: 40px;
+    width: 50%;
 }
-.navigation a:hover{
-    background-color: darkgray;
+.name{
+    position:fixed;bottom: 0;
 }
